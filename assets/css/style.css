@@ -5,9 +5,6 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-body {
-    margin: 0;
-
     body {
         background-color: #8dc63f;
         font-family: Arial, Helvetica, sans-serif;
@@ -94,8 +91,26 @@ body {
         vertical-align: bottom;
     }
 
+    .main-picture img {
+        width: 100%;
+        object-fit: none;
+        object-position: center;
+        padding-right: 30px;
+    }
+
     .main-text {
         max-width: 600px;
+    }
+
+    .main-des-box{
+        display: flex;
+        flex-direction: column;
+        row-gap: 10px;
+    }
+
+    .main-des{
+        font-size: 14px;
+        font-weight: 400;
     }
 
     .menu {
@@ -106,10 +121,6 @@ body {
         padding: 9px 20px;
         background-color: #39930d;
         font-size: 18px;
-        «Веб-технології»,
-        О.О.Павлова,
-        2020 р.,
-        Практична робота 2 color: #fff;
     }
 
     .menu ul {
